@@ -1,0 +1,20 @@
+input[type="text"]:focus {
+    outline: none !important;
+  }
+
+  #gallery {
+    max-width: 500px;
+
+    min-width: 100px;
+
+    height: 100px;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* background-color: aqua; */
+  }
+  #gallery img {
+    display: inline-block !important;
+    vertical-align: top;
+    width: 100px;
+    margin-right: 5px !important;
+  }
